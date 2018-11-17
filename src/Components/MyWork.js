@@ -5,7 +5,10 @@ function MyWork() {
         <div className='my-work-wrapper'>
             <div className='my-work-container'>
                 <div className='pic-maybe-container'>
-                    <div className='pic-maybe'></div>
+                    <div className='pic-maybe'>
+                        <div className='pic'></div>
+                        <div className='my-info'></div>
+                    </div>
                 </div>
                 <div className='work-list-container'>
                     <div className='my-work'>
