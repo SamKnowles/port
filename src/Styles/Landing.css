@@ -8,7 +8,7 @@
 }
 
 .landing-center {
-    border: 2px solid white;
+    border: 2px solid black;
     width: 25%;
     height: 20%;
     align-items: center;
@@ -19,6 +19,6 @@
 .landing-words {
     font-family: Optima, sans-serif;
     text-align: center;    
-    color: white;
+    color: black;
     font-size: 20px;
 }
