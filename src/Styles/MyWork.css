@@ -62,8 +62,19 @@
     grid-gap: 5px;
 }
 
+.work-screenshot {
+    border: 1px solid hotpink;    
+    background-color: black;  
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
 .work {
     border: 1px solid hotpink;
-    padding: 10px;
+}
+
+.budget-main-pic {
+    width: 70%;
 }
 
