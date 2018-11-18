@@ -1,3 +1,8 @@
+* {
+font-family: Optima, sans-serif;
+text-align: center;    
+font-size: 30px;
+}
 
 .main-view-wrapper {
     align-items: center;
