@@ -1,4 +1,5 @@
 import React from 'react'
+import fampic from '../Images/fampic.jpg'
 
 function MyWork() {
     return (
@@ -6,7 +7,9 @@ function MyWork() {
             <div className='my-work-container'>
                 <div className='pic-maybe-container'>
                     <div className='pic-maybe'>
-                        <div className='pic'>A picture of my face</div>
+                        <div className='pic'>
+                            <img className='fam-pic' src={fampic}/>
+                        </div>
                         <div className='my-info'>Here's information about me and shit</div>
                     </div>
                 </div>
