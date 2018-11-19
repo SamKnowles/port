@@ -18,10 +18,8 @@ function MyWork() {
                     </div>
                 </div>
                 <div className='work-list-container'>
-                    <div className='my-work'>
-                        <div className='work-screenshot'>
-                            <img className='budget-main-pic' src={budgetMain} alt=''/>
-                        </div>
+                    <div className='my-work'>      
+                            <a className='work-screenshot' href="https://cash-money-budget.herokuapp.com/"><img className='budget-main-pic' src={budgetMain} alt=''/></a>
                         <div className='work'>Information about my Budget project</div>
                     </div>
                     <div className='my-work'>
