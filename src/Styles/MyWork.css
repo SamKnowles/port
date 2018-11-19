@@ -68,6 +68,7 @@
     display: flex;
     align-items: center;
     justify-content: center;  
+    position: relative;
 }
 
 .work {
@@ -75,7 +76,15 @@
 }
 
 .budget-main-pic {
+    width: 60%;
+    position: absolute;
+    transition: width .5s;
+    transition-timing-function: ease-in-out;    
+}
+
+.budget-main-pic:hover {
     width: 70%;
+    cursor: pointer;
 }
 
 .dad-jokes-pic {
